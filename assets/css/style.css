@@ -164,3 +164,64 @@ section.five img {
 .slider{
     margin-bottom: 30px;
 }
+.mainul{
+    list-style: none;
+    display: flex;
+   
+    padding-left: 0px;
+}
+.mainul li{
+    padding-right: 20px;
+}
+.footer_head{
+    font-size: 18px;
+}
+ul.footnav {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+ul.footnav li {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+footer{
+    margin-top: 40px;
+    background-color: #ffffff0f;
+}
+footer p{
+    color: gray;
+}
+.con h2 {
+    font-size: 16px;
+}
+.con p {
+    font-size: 14px;
+    line-height: 21px;
+    color: gray;
+    margin-top: 10px;
+}
+footer i {
+    color: white;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+@media screen and (max-width: 786px) {
+    body {
+      text-align: center;
+    }
+    section.slider {
+        display: flex
+    ;
+        justify-content: space-between;
+    }
+    .slide_inner {
+        padding-bottom: 20px;
+        width: 70%;
+        margin: 0 auto;
+    }
+  }
